@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+$abc = 123456;
+
 Route::get('/', function () {
-    return view('welcome');
+    // check phpinfo here
+    // phpinfo();
+    $a = 123;
+    $b = 456;
+    $c = $a + $b;
+    echo $c;
 });
